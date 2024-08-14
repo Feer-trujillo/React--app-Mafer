@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./componentes/Navbar.jsx";
+import Navbar from "./componentes/navbar/Navbar.jsx";
 import Astros from "./componentes/astros/Astros.jsx";
 import Apod from './componentes/apod/Apod.jsx'; 
 import About from './componentes/about/About.jsx'; 

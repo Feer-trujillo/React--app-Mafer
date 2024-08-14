@@ -9,7 +9,7 @@ function Apod() {
     useEffect(() => {
         const fetchApod = async () => {
             try {
-                const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
+                const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=2ITUMfeTNkpqe0aAulMQXTdfkHiulR8A4DNzCg30');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

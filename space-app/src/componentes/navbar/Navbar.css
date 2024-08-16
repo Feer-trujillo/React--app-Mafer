@@ -1,23 +1,23 @@
 .nav-container {
     min-width: 2000px;
     height: 50px;
-    position: fixed; /* Cambiado de absolute a fixed para mantener la navbar en la parte superior */
+    position: fixed;
     left: 0;
     top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 5px;
-    background-color: #f60; /* Añadido un color de fondo para mejor visibilidad */
+    background-color: #f60;
 }
 
 .nav-logo {
-    max-width: 50px; /* Cambiado de nav.logo a .nav-logo */
+    max-width: 50px;
     max-height: 50px;
 }
 
 .links-container {
-    width: 180px; /* Añadida la unidad 'px' */
+    width: 180px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,11 +28,11 @@
     font-size: 1.2em;
     color: white;
     background-color: chocolate;
-    padding: 5px; /* Añadido padding para mejor separación */
-    border-radius: 4px; /* Añadido borde redondeado para mejor diseño */
+    padding: 5px;
+    border-radius: 4px; 
 }
 
-.links-container > a:hover { /* Corregido el selector :hover */
+.links-container > a:hover {
     color: bisque;
 }
 

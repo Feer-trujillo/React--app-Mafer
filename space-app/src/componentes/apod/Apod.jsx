@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Apod.css'; // Asegúrate de que esta ruta sea correcta y que el archivo exista
-
+import './Apod.css'; 
 function Apod() {
     const [apod, setApod] = useState(null);
     const [loading, setLoading] = useState(true);

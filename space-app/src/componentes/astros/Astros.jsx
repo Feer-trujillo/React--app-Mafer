@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CircularProgress from '@mui/material/CircularProgress'; // Importa CircularProgress
-import './Astros.css'; // Asumiendo que estás importando un archivo CSS
+import CircularProgress from '@mui/material/CircularProgress'; 
+import './Astros.css'; 
 
 function AstroCard({ name, craft }) {
     return (
@@ -29,7 +29,7 @@ function Astros() {
         fetchData();
     }, []);
 
-    // Maneja el caso cuando `astros` es null
+  
     if (astros === null) {
         return (
             <div className='loading-container'>

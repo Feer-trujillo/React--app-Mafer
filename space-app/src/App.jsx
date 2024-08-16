@@ -1,10 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./componentes/navbar/Navbar.jsx";
-import Astros from "./componentes/astros/Astros.jsx";
+import Navbar from './componentes/navbar/Navbar.jsx';
+import Astros from './componentes/astros/Astros.jsx';
 import Apod from './componentes/apod/Apod.jsx'; 
 import About from './componentes/about/About.jsx'; 
 import './App.css';
-
 
 function App() {
   const links = [
@@ -17,7 +16,7 @@ function App() {
   return (
     <Router>
       <Navbar links={links} />
-      <div className="content"> {/* Agregado para asegurar que el contenido no esté oculto bajo la Navbar */}
+      <div className="content"> 
         <Routes>
           <Route path="/" element={<h1>Space App</h1>} />
           <Route path="/astros" element={<Astros />} />
